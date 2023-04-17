@@ -2,7 +2,7 @@
 
  $serverName = "tcp:db-eus-prd.mysql.database.azure.com,3306";
  $connectionOptions = array("Database"=>"mydb",
- "Uid"=>"yourusername", "PWD"=>"India@1234567");
+ "Uid"=>"mysql", "PWD"=>"India@1234567");
  //Establishes the connection
  $conn = sqlsrv_connect($serverName, $connectionOptions);
  //Select Query

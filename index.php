@@ -1,6 +1,6 @@
  <?php
 
- $serverName = "tcp:db-eus-prd.mysql.database.azure.com,1433";
+ $serverName = "tcp:db-eus-prd.mysql.database.azure.com,3306";
  $connectionOptions = array("Database"=>"mydb",
  "Uid"=>"yourusername", "PWD"=>"India@1234567");
  //Establishes the connection

@@ -56,5 +56,5 @@ jobs:
         with:
           app-name: 'php-eus-prd'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_E2E25F9B1D4E4E0DB931909D933B2609 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_C828B28A355E42A0AE6645BFFEFED639 }}
           package: .
